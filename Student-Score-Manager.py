@@ -22,7 +22,11 @@ for _ in range(number):
     while True:
           student=input('please enter name & score:\n')
           print('----------------------------------')
-          name , score=student.rsplit(' ',1)
+          student=student.strip()
+           if ' ' not in student:
+                  print('invalid student name & score')
+                  continue
+           name , score=student.rsplit(' ',1)
           name_student=all(char.isalpha() or char=='_' 
                            or char==' ' for char in name)
           score_student=all(char.isdigit() for char in score)
