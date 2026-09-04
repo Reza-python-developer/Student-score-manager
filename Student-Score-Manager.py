@@ -23,7 +23,7 @@ for _ in range(number):
           student=input('please enter name & score:\n')
           print('----------------------------------')
           student=student.strip()
-           if ' ' not in student:
+          if ' ' not in student:
                   print('invalid student name & score')
                   continue
            name , score=student.rsplit(' ',1)
