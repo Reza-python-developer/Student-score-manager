@@ -28,7 +28,6 @@ While developing this project, I practiced:
 - Dictionaries
 - Conditions
 - Loops
-- Functions
 - `split()` and `rsplit()`
 - `all()`
 - `isalpha()`
